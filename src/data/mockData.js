@@ -136,9 +136,9 @@ export const mockTransactions = [
  * @returns {Promise<Array>} - Promise that resolves to transactions array
  */
 export const fetchTransactions = () => {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
-      reject([...mockTransactions]);
+      resolve([...mockTransactions]);
     }, 1000);
   });
 };
