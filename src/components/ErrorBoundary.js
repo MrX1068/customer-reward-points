@@ -25,7 +25,7 @@ class ErrorBoundary extends React.Component {
           <div className="error-icon">🚨</div>
           <h3>Something went wrong</h3>
           <p>Sorry, an unexpected error occurred.</p>
-          {import.meta.env.MODE === "development" && this.state.error && (
+          {process.env.MODE === "development" && this.state.error && (
             <details
               style={{
                 whiteSpace: "pre-wrap",

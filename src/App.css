@@ -168,7 +168,8 @@ body {
   overflow-y: auto;
   border-radius: 8px;
   border: 1px solid #e1e8ed;
-  max-height: 500px;
+  max-height: 375px;
+  min-height: 375px;
 }
 
 /* Data table styles */

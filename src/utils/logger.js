@@ -9,7 +9,7 @@ import log from 'loglevel';
 // Set log level based on environment:
 // - 'debug' for development: show all logs (debug, info, warn, error)
 // - 'warn' for production: only show warnings and errors
-log.setLevel(import.meta.env.MODE === 'production' ? 'warn' : 'debug');
+log.setLevel(process.env.NODE_ENV === 'production' ? 'warn' : 'debug');
 
 // Export the logger instance for use throughout the app
 export default log; 

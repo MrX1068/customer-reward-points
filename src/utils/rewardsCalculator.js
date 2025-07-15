@@ -4,6 +4,7 @@
  * @returns {number} Reward points earned for this transaction.
  */
 export const calculateRewardPoints = (amount) => {
+  if (typeof amount !== 'number' || isNaN(amount) || amount < 0) return 0;
   if (amount <= 50) return 0;
   let points = 0;
   if (amount > 50) {
