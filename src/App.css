@@ -105,38 +105,6 @@ body {
   width: 100%;
 }
 
-/* Tables grid */
-.tables-grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: 1fr 1fr;
-  align-items: stretch;
-}
-
-.tables-grid > .table-container {
-  min-width: 0;
-}
-
-.tables-grid > .table-container {
-  min-height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.tables-grid > .table-container:last-child {
-  grid-column: 1 / -1;
-}
-
-@media (max-width: 1200px) {
-  .tables-grid {
-    grid-template-columns: 1fr;
-  }
-  .tables-grid > .table-container:last-child {
-    grid-column: auto;
-  }
-}
-
 /* Table container */
 .table-container {
   background: rgba(255, 255, 255, 0.95);
@@ -167,55 +135,11 @@ body {
   overflow-x: auto;
   overflow-y: auto;
   border-radius: 8px;
-  border: 1px solid #e1e8ed;
   max-height: 375px;
   min-height: 375px;
 }
 
-/* Data table styles */
-.data-table {
-  width: 100%;
-  border-collapse: collapse;
-  background: white;
-  font-size: 0.9rem;
-}
 
-.data-table th {
-  background: #374151;
-  color: white;
-  padding: 1rem 0.75rem;
-  text-align: left;
-  font-weight: 600;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.data-table th:first-child {
-  border-top-left-radius: 8px;
-}
-
-.data-table th:last-child {
-  border-top-right-radius: 8px;
-}
-
-.data-table td {
-  padding: 0.875rem 0.75rem;
-  border-bottom: 1px solid #f1f3f4;
-  color: #2c3e50;
-}
-
-.data-table tr:hover {
-  background-color: #f8f9fa;
-  transition: background-color 0.2s ease;
-}
-
-.data-table tr:last-child td {
-  border-bottom: none;
-}
 
 /* Loading styles */
 .loading-container {
@@ -335,28 +259,3 @@ body {
   }
 }
 
-/* Scrollbar styling */
-.table-wrapper tbody::-webkit-scrollbar {
-  height: 8px;
-  width: 8px;
-}
-
-.table-wrapper tbody::-webkit-scrollbar-track {
-  background: #f1f5f9;
-  border-radius: 4px;
-}
-
-.table-wrapper tbody::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 4px;
-}
-
-.table-wrapper tbody::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
-}
-
-/* Center-align numeric columns */
-.data-table td:nth-last-child(-n + 2),
-.data-table th:nth-last-child(-n + 2) {
-  text-align: center;
-}
