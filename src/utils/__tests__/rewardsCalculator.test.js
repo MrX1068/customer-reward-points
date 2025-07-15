@@ -29,8 +29,8 @@ describe('calculateRewardPoints', () => {
   it('returns 0 for negative values', () => {
     expect(calculateRewardPoints(-10)).toBe(0);
   });
-  it('returns 0 for NAN', () => {
-    expect(calculateRewardPoints(-10)).toBe(0);
+  it('returns 0 for NaN', () => {
+    expect(calculateRewardPoints(NaN)).toBe(0);
   });
 });
 
