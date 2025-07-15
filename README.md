@@ -52,15 +52,11 @@ src/
 ![Main Dashboard](src/screenshots/main-dashboard.png)
 - Shows all three tables: Total Rewards, Monthly Rewards, Transactions.
 
-### 2. Loading State
-![Loading State](src/screenshots/loading-state.png)
-- Displays animated spinner while data is loading.
-
-### 3. Error State
+### 2. Error State
 ![Error State](src/screenshots/error-state.png)
 - Shows error message and retry button when data fetch fails.
 
-### 4. Empty State
+### 3. Empty State
 ![Empty State](src/screenshots/empty-state.png)
 - Shows “No data available” message when there are no transactions.
 
@@ -79,7 +75,7 @@ src/
    ```
 3. **Start the development server**
    ```bash
-   npm run dev
+   npm start
    ```
 4. **Open in your browser**
    Go to [http://localhost:5173](http://localhost:5173)
