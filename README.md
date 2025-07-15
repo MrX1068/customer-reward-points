@@ -26,21 +26,35 @@ It also handles loading and error states gracefully, providing a robust user exp
 ```
 src/
   components/
-    ErrorBoundary.jsx         # Catches and displays UI errors
-    ErrorMessage.jsx          # Shows error messages with retry
-    LoadingSpinner.jsx        # Animated loading indicator
-    MonthlyRewardsTable.jsx   # Table for monthly rewards per customer
-    TotalRewardsTable.jsx     # Table for total rewards per customer
-    TransactionsTable.jsx     # Table for all transactions
+    Dashboard.js           # Main dashboard layout and logic
+    ErrorBoundary.js       # Catches and displays UI errors
+    ErrorMessage.js        # Shows error messages with retry
+    LoadingSpinner.js      # Animated loading indicator
+    MonthlyRewardsTable.js # Table for monthly rewards per customer
+    TotalRewardsTable.js   # Table for total rewards per customer
+    TransactionsTable.js   # Table for all transactions
+    ReusableTable.js       # Shared table component for DRY table UI
   utils/
     rewardsCalculator.js      # Pure functions for reward calculations
     dataProcessing.js         # Data grouping and transformation utilities
     logger.js                 # Centralized logging utility
+    __tests__/
+      rewardsCalculator.test.js # Unit tests for rewards logic
+      dataProcessing.test.js    # Unit tests for data processing
   data/
-    mockData.js               # Mock transaction data
-  App.jsx                     # Main application component
-  App.css                     # Global styles
-  main.jsx                    # React entry point
+    mockData.js               # Mock transaction data fetcher
+    mockData.json              # JSON dataset for transactions
+  screenshots/
+    main-dashboard.png         # Screenshot: main dashboard
+    error-state.png            # Screenshot: error state
+    empty-state.png            # Screenshot: empty state
+    loading-state.png          # Screenshot: loading state
+  App.js                       # Main application component
+  App.css                      # Global styles
+  index.js                     # React entry point
+  logo.svg                     # App logo
+  setupTests.js                # Test setup file
+  reportWebVitals.js           # Web vitals reporting
 ```
 
 ---
@@ -78,10 +92,18 @@ src/
    npm start
    ```
 4. **Open in your browser**
-   Go to [http://localhost:5173](http://localhost:5173)
+   Go to [http://localhost:3000](http://localhost:3000)
 
 ---
 
-- **Tech Stack:** React 19, Vite 7, CSS3
+## 🛠️ Tech Stack
+
+- **React 19** (with Create React App)
+- **Material UI (MUI)** for UI components and DataGrid
+- **CSS3** for custom styles
+- **Jest & React Testing Library** for unit testing
+- **JSON** for mock data
+
+---
 
 
