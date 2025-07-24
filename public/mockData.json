@@ -1,0 +1,994 @@
+[
+  {
+    "transactionId": "TXN001",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2023-12-05",
+    "productPurchased": "Gaming Laptop",
+    "price": 1200.5
+  },
+  {
+    "transactionId": "TXN002",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2023-12-15",
+    "productPurchased": "Wireless Mouse",
+    "price": 75.25
+  },
+  {
+    "transactionId": "TXN003",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2023-12-10",
+    "productPurchased": "Smartphone",
+    "price": 899.99
+  },
+  {
+    "transactionId": "TXN004",
+    "customerId": "CUST003",
+    "customerName": "Mike Wilson",
+    "purchaseDate": "2023-12-20",
+    "productPurchased": "Headphones",
+    "price": 45.0
+  },
+  {
+    "transactionId": "TXN005",
+    "customerId": "CUST003",
+    "customerName": "Mike Wilson",
+    "purchaseDate": "2023-12-25",
+    "productPurchased": "Gaming Console",
+    "price": 499.99
+  },
+  {
+    "transactionId": "TXN006",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2024-01-08",
+    "productPurchased": "Monitor",
+    "price": 299.99
+  },
+  {
+    "transactionId": "TXN007",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2024-01-12",
+    "productPurchased": "Tablet",
+    "price": 349.5
+  },
+  {
+    "transactionId": "TXN008",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2024-01-18",
+    "productPurchased": "Keyboard",
+    "price": 125.75
+  },
+  {
+    "transactionId": "TXN009",
+    "customerId": "CUST004",
+    "customerName": "Emily Davis",
+    "purchaseDate": "2024-01-22",
+    "productPurchased": "Laptop Stand",
+    "price": 35.0
+  },
+  {
+    "transactionId": "TXN010",
+    "customerId": "CUST004",
+    "customerName": "Emily Davis",
+    "purchaseDate": "2024-01-28",
+    "productPurchased": "External Hard Drive",
+    "price": 89.99
+  },
+  {
+    "transactionId": "TXN011",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2024-02-03",
+    "productPurchased": "Webcam",
+    "price": 65.5
+  },
+  {
+    "transactionId": "TXN012",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2024-02-10",
+    "productPurchased": "Printer",
+    "price": 199.99
+  },
+  {
+    "transactionId": "TXN013",
+    "customerId": "CUST003",
+    "customerName": "Mike Wilson",
+    "purchaseDate": "2024-02-14",
+    "productPurchased": "Gaming Chair",
+    "price": 299.99
+  },
+  {
+    "transactionId": "TXN014",
+    "customerId": "CUST004",
+    "customerName": "Emily Davis",
+    "purchaseDate": "2024-02-20",
+    "productPurchased": "USB Hub",
+    "price": 25.0
+  },
+  {
+    "transactionId": "TXN015",
+    "customerId": "CUST005",
+    "customerName": "David Brown",
+    "purchaseDate": "2024-02-25",
+    "productPurchased": "Gaming Mouse",
+    "price": 79.99
+  },
+  {
+    "transactionId": "TXN016",
+    "customerId": "CUST005",
+    "customerName": "David Brown",
+    "purchaseDate": "2024-03-05",
+    "productPurchased": "Mechanical Keyboard",
+    "price": 149.99
+  },
+  {
+    "transactionId": "TXN017",
+    "customerId": "CUST006",
+    "customerName": "Lisa Garcia",
+    "purchaseDate": "2024-03-10",
+    "productPurchased": "Wireless Earbuds",
+    "price": 129.5
+  },
+  {
+    "transactionId": "TXN018",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2024-03-15",
+    "productPurchased": "Graphics Card",
+    "price": 649.99
+  },
+  {
+    "transactionId": "TXN019",
+    "customerId": "CUST007",
+    "customerName": "Robert Taylor",
+    "purchaseDate": "2024-03-18",
+    "productPurchased": "Smart Watch",
+    "price": 299.0
+  },
+  {
+    "transactionId": "TXN020",
+    "customerId": "CUST003",
+    "customerName": "Mike Wilson",
+    "purchaseDate": "2024-03-22",
+    "productPurchased": "SSD Drive",
+    "price": 159.99
+  },
+  {
+    "transactionId": "TXN021",
+    "customerId": "CUST008",
+    "customerName": "Jennifer White",
+    "purchaseDate": "2024-03-25",
+    "productPurchased": "Laptop Bag",
+    "price": 45.75
+  },
+  {
+    "transactionId": "TXN022",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2024-03-28",
+    "productPurchased": "Power Bank",
+    "price": 55.99
+  },
+  {
+    "transactionId": "TXN023",
+    "customerId": "CUST009",
+    "customerName": "Michael Anderson",
+    "purchaseDate": "2024-04-02",
+    "productPurchased": "Bluetooth Speaker",
+    "price": 89.99
+  },
+  {
+    "transactionId": "TXN024",
+    "customerId": "CUST004",
+    "customerName": "Emily Davis",
+    "purchaseDate": "2024-04-05",
+    "productPurchased": "Desk Lamp",
+    "price": 39.99
+  },
+  {
+    "transactionId": "TXN025",
+    "customerId": "CUST010",
+    "customerName": "Christopher Lee",
+    "purchaseDate": "2024-04-08",
+    "productPurchased": "Wireless Charger",
+    "price": 29.99
+  },
+  {
+    "transactionId": "TXN026",
+    "customerId": "CUST006",
+    "customerName": "Lisa Garcia",
+    "purchaseDate": "2024-04-12",
+    "productPurchased": "Phone Case",
+    "price": 19.99
+  },
+  {
+    "transactionId": "TXN027",
+    "customerId": "CUST005",
+    "customerName": "David Brown",
+    "purchaseDate": "2024-04-15",
+    "productPurchased": "Microphone",
+    "price": 119.99
+  },
+  {
+    "transactionId": "TXN028",
+    "customerId": "CUST007",
+    "customerName": "Robert Taylor",
+    "purchaseDate": "2024-04-18",
+    "productPurchased": "Fitness Tracker",
+    "price": 79.99
+  },
+  {
+    "transactionId": "TXN029",
+    "customerId": "CUST011",
+    "customerName": "Amanda Martinez",
+    "purchaseDate": "2024-04-22",
+    "productPurchased": "Tablet Stand",
+    "price": 24.99
+  },
+  {
+    "transactionId": "TXN030",
+    "customerId": "CUST008",
+    "customerName": "Jennifer White",
+    "purchaseDate": "2024-04-25",
+    "productPurchased": "Cable Organizer",
+    "price": 15.99
+  },
+  {
+    "transactionId": "TXN031",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2024-04-28",
+    "productPurchased": "CPU Cooler",
+    "price": 89.99
+  },
+  {
+    "transactionId": "TXN032",
+    "customerId": "CUST012",
+    "customerName": "Daniel Rodriguez",
+    "purchaseDate": "2024-05-02",
+    "productPurchased": "Gaming Headset",
+    "price": 159.99
+  },
+  {
+    "transactionId": "TXN033",
+    "customerId": "CUST009",
+    "customerName": "Michael Anderson",
+    "purchaseDate": "2024-05-05",
+    "productPurchased": "Webcam HD",
+    "price": 99.99
+  },
+  {
+    "transactionId": "TXN034",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2024-05-08",
+    "productPurchased": "Mouse Pad",
+    "price": 12.99
+  },
+  {
+    "transactionId": "TXN035",
+    "customerId": "CUST013",
+    "customerName": "Michelle Thompson",
+    "purchaseDate": "2024-05-12",
+    "productPurchased": "Laptop Sleeve",
+    "price": 32.99
+  },
+  {
+    "transactionId": "TXN036",
+    "customerId": "CUST003",
+    "customerName": "Mike Wilson",
+    "purchaseDate": "2024-05-15",
+    "productPurchased": "RAM Memory",
+    "price": 129.99
+  },
+  {
+    "transactionId": "TXN037",
+    "customerId": "CUST010",
+    "customerName": "Christopher Lee",
+    "purchaseDate": "2024-05-18",
+    "productPurchased": "Screen Protector",
+    "price": 9.99
+  },
+  {
+    "transactionId": "TXN038",
+    "customerId": "CUST014",
+    "customerName": "Kevin Johnson",
+    "purchaseDate": "2024-05-22",
+    "productPurchased": "Portable Monitor",
+    "price": 249.99
+  },
+  {
+    "transactionId": "TXN039",
+    "customerId": "CUST011",
+    "customerName": "Amanda Martinez",
+    "purchaseDate": "2024-05-25",
+    "productPurchased": "Wireless Keyboard",
+    "price": 69.99
+  },
+  {
+    "transactionId": "TXN040",
+    "customerId": "CUST004",
+    "customerName": "Emily Davis",
+    "purchaseDate": "2024-05-28",
+    "productPurchased": "Document Scanner",
+    "price": 179.99
+  },
+  {
+    "transactionId": "TXN041",
+    "customerId": "CUST015",
+    "customerName": "Jessica Wilson",
+    "purchaseDate": "2024-06-01",
+    "productPurchased": "Smart Home Hub",
+    "price": 99.99
+  },
+  {
+    "transactionId": "TXN042",
+    "customerId": "CUST012",
+    "customerName": "Daniel Rodriguez",
+    "purchaseDate": "2024-06-05",
+    "productPurchased": "Network Router",
+    "price": 149.99
+  },
+  {
+    "transactionId": "TXN043",
+    "customerId": "CUST006",
+    "customerName": "Lisa Garcia",
+    "purchaseDate": "2024-06-08",
+    "productPurchased": "Car Phone Mount",
+    "price": 22.99
+  },
+  {
+    "transactionId": "TXN044",
+    "customerId": "CUST007",
+    "customerName": "Robert Taylor",
+    "purchaseDate": "2024-06-12",
+    "productPurchased": "Action Camera",
+    "price": 199.99
+  },
+  {
+    "transactionId": "TXN045",
+    "customerId": "CUST008",
+    "customerName": "Jennifer White",
+    "purchaseDate": "2024-06-15",
+    "productPurchased": "Ergonomic Mouse",
+    "price": 49.99
+  },
+  {
+    "transactionId": "TXN046",
+    "customerId": "CUST016",
+    "customerName": "Mark Davis",
+    "purchaseDate": "2024-06-18",
+    "productPurchased": "Virtual Reality Headset",
+    "price": 399.99
+  },
+  {
+    "transactionId": "TXN047",
+    "customerId": "CUST013",
+    "customerName": "Michelle Thompson",
+    "purchaseDate": "2024-06-22",
+    "productPurchased": "Stylus Pen",
+    "price": 29.99
+  },
+  {
+    "transactionId": "TXN048",
+    "customerId": "CUST005",
+    "customerName": "David Brown",
+    "purchaseDate": "2024-06-25",
+    "productPurchased": "Audio Interface",
+    "price": 189.99
+  },
+  {
+    "transactionId": "TXN049",
+    "customerId": "CUST017",
+    "customerName": "Rachel Green",
+    "purchaseDate": "2024-06-28",
+    "productPurchased": "Laptop Cooling Pad",
+    "price": 34.99
+  },
+  {
+    "transactionId": "TXN050",
+    "customerId": "CUST009",
+    "customerName": "Michael Anderson",
+    "purchaseDate": "2024-07-02",
+    "productPurchased": "Smart Doorbell",
+    "price": 129.99
+  },
+  {
+    "transactionId": "TXN051",
+    "customerId": "CUST014",
+    "customerName": "Kevin Johnson",
+    "purchaseDate": "2024-07-05",
+    "productPurchased": "Drone Camera",
+    "price": 299.99
+  },
+  {
+    "transactionId": "TXN052",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2024-07-08",
+    "productPurchased": "Motherboard",
+    "price": 199.99
+  },
+  {
+    "transactionId": "TXN053",
+    "customerId": "CUST018",
+    "customerName": "Steven Clark",
+    "purchaseDate": "2024-07-12",
+    "productPurchased": "Electric Scooter",
+    "price": 449.99
+  },
+  {
+    "transactionId": "TXN054",
+    "customerId": "CUST010",
+    "customerName": "Christopher Lee",
+    "purchaseDate": "2024-07-15",
+    "productPurchased": "Smart Thermostat",
+    "price": 149.99
+  },
+  {
+    "transactionId": "TXN055",
+    "customerId": "CUST015",
+    "customerName": "Jessica Wilson",
+    "purchaseDate": "2024-07-18",
+    "productPurchased": "Security Camera",
+    "price": 89.99
+  },
+  {
+    "transactionId": "TXN056",
+    "customerId": "CUST019",
+    "customerName": "Nicole Brown",
+    "purchaseDate": "2024-07-22",
+    "productPurchased": "Tablet Keyboard",
+    "price": 59.99
+  },
+  {
+    "transactionId": "TXN057",
+    "customerId": "CUST011",
+    "customerName": "Amanda Martinez",
+    "purchaseDate": "2024-07-25",
+    "productPurchased": "Wireless Presenter",
+    "price": 34.99
+  },
+  {
+    "transactionId": "TXN058",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2024-07-28",
+    "productPurchased": "Smart Light Bulbs",
+    "price": 39.99
+  },
+  {
+    "transactionId": "TXN059",
+    "customerId": "CUST020",
+    "customerName": "Andrew Miller",
+    "purchaseDate": "2024-08-01",
+    "productPurchased": "Gaming Monitor",
+    "price": 349.99
+  },
+  {
+    "transactionId": "TXN060",
+    "customerId": "CUST016",
+    "customerName": "Mark Davis",
+    "purchaseDate": "2024-08-05",
+    "productPurchased": "VR Controllers",
+    "price": 129.99
+  },
+  {
+    "transactionId": "TXN061",
+    "customerId": "CUST003",
+    "customerName": "Mike Wilson",
+    "purchaseDate": "2024-08-08",
+    "productPurchased": "Mechanical Switch Set",
+    "price": 45.99
+  },
+  {
+    "transactionId": "TXN062",
+    "customerId": "CUST017",
+    "customerName": "Rachel Green",
+    "purchaseDate": "2024-08-12",
+    "productPurchased": "Portable Projector",
+    "price": 199.99
+  },
+  {
+    "transactionId": "TXN063",
+    "customerId": "CUST021",
+    "customerName": "Thomas Wilson",
+    "purchaseDate": "2024-08-15",
+    "productPurchased": "Smartwatch Band",
+    "price": 24.99
+  },
+  {
+    "transactionId": "TXN064",
+    "customerId": "CUST012",
+    "customerName": "Daniel Rodriguez",
+    "purchaseDate": "2024-08-18",
+    "productPurchased": "WiFi Extender",
+    "price": 79.99
+  },
+  {
+    "transactionId": "TXN065",
+    "customerId": "CUST004",
+    "customerName": "Emily Davis",
+    "purchaseDate": "2024-08-22",
+    "productPurchased": "Digital Photo Frame",
+    "price": 119.99
+  },
+  {
+    "transactionId": "TXN066",
+    "customerId": "CUST022",
+    "customerName": "Patricia Garcia",
+    "purchaseDate": "2024-08-25",
+    "productPurchased": "E-Reader",
+    "price": 129.99
+  },
+  {
+    "transactionId": "TXN067",
+    "customerId": "CUST006",
+    "customerName": "Lisa Garcia",
+    "purchaseDate": "2024-08-28",
+    "productPurchased": "Bluetooth Tracker",
+    "price": 29.99
+  },
+  {
+    "transactionId": "TXN068",
+    "customerId": "CUST007",
+    "customerName": "Robert Taylor",
+    "purchaseDate": "2024-09-02",
+    "productPurchased": "Dash Camera",
+    "price": 89.99
+  },
+  {
+    "transactionId": "TXN069",
+    "customerId": "CUST023",
+    "customerName": "William Jones",
+    "purchaseDate": "2024-09-05",
+    "productPurchased": "Mini PC",
+    "price": 299.99
+  },
+  {
+    "transactionId": "TXN070",
+    "customerId": "CUST018",
+    "customerName": "Steven Clark",
+    "purchaseDate": "2024-09-08",
+    "productPurchased": "Helmet Camera",
+    "price": 149.99
+  },
+  {
+    "transactionId": "TXN071",
+    "customerId": "CUST008",
+    "customerName": "Jennifer White",
+    "purchaseDate": "2024-09-12",
+    "productPurchased": "Standing Desk Converter",
+    "price": 159.99
+  },
+  {
+    "transactionId": "TXN072",
+    "customerId": "CUST013",
+    "customerName": "Michelle Thompson",
+    "purchaseDate": "2024-09-15",
+    "productPurchased": "Digital Drawing Tablet",
+    "price": 179.99
+  },
+  {
+    "transactionId": "TXN073",
+    "customerId": "CUST024",
+    "customerName": "Brian Martinez",
+    "purchaseDate": "2024-09-18",
+    "productPurchased": "Smart Scale",
+    "price": 69.99
+  },
+  {
+    "transactionId": "TXN074",
+    "customerId": "CUST019",
+    "customerName": "Nicole Brown",
+    "purchaseDate": "2024-09-22",
+    "productPurchased": "Laptop Stand Adjustable",
+    "price": 49.99
+  },
+  {
+    "transactionId": "TXN075",
+    "customerId": "CUST005",
+    "customerName": "David Brown",
+    "purchaseDate": "2024-09-25",
+    "productPurchased": "Studio Monitor Speakers",
+    "price": 249.99
+  },
+  {
+    "transactionId": "TXN076",
+    "customerId": "CUST031",
+    "customerName": "Ava Young",
+    "purchaseDate": "2025-01-01",
+    "productPurchased": "Rechargeable Batteries",
+    "price": 287.4
+  },
+  {
+    "transactionId": "TXN077",
+    "customerId": "CUST034",
+    "customerName": "Elijah Scott",
+    "purchaseDate": "2025-01-08",
+    "productPurchased": "Digital Notepad",
+    "price": 449.09
+  },
+  {
+    "transactionId": "TXN078",
+    "customerId": "CUST029",
+    "customerName": "Isabella Lewis",
+    "purchaseDate": "2025-01-12",
+    "productPurchased": "Thermal Printer",
+    "price": 298.58
+  },
+  {
+    "transactionId": "TXN079",
+    "customerId": "CUST032",
+    "customerName": "Liam Parker",
+    "purchaseDate": "2025-01-18",
+    "productPurchased": "Smart Door Lock",
+    "price": 199.99
+  },
+  {
+    "transactionId": "TXN080",
+    "customerId": "CUST033",
+    "customerName": "Olivia Hall",
+    "purchaseDate": "2025-01-24",
+    "productPurchased": "LED Strip Lights",
+    "price": 89.5
+  },
+  {
+    "transactionId": "TXN081",
+    "customerId": "CUST035",
+    "customerName": "Mason Adams",
+    "purchaseDate": "2025-01-30",
+    "productPurchased": "3D Printer",
+    "price": 499.99
+  },
+  {
+    "transactionId": "TXN082",
+    "customerId": "CUST036",
+    "customerName": "Chloe Ramirez",
+    "purchaseDate": "2025-02-04",
+    "productPurchased": "Smart Glasses",
+    "price": 329.0
+  },
+  {
+    "transactionId": "TXN083",
+    "customerId": "CUST037",
+    "customerName": "Noah Hernandez",
+    "purchaseDate": "2025-02-10",
+    "productPurchased": "Wireless Charging Pad",
+    "price": 39.99
+  },
+  {
+    "transactionId": "TXN084",
+    "customerId": "CUST038",
+    "customerName": "Mia Lopez",
+    "purchaseDate": "2025-02-16",
+    "productPurchased": "Laptop Docking Station",
+    "price": 169.99
+  },
+  {
+    "transactionId": "TXN085",
+    "customerId": "CUST039",
+    "customerName": "James Walker",
+    "purchaseDate": "2025-02-21",
+    "productPurchased": "Voice Assistant Speaker",
+    "price": 79.49
+  },
+  {
+    "transactionId": "TXN086",
+    "customerId": "CUST030",
+    "customerName": "Emily Young",
+    "purchaseDate": "2025-03-01",
+    "productPurchased": "UltraWide Monitor",
+    "price": 349.0
+  },
+  {
+    "transactionId": "TXN087",
+    "customerId": "CUST034",
+    "customerName": "Elijah Scott",
+    "purchaseDate": "2025-03-06",
+    "productPurchased": "Vertical Mouse",
+    "price": 59.99
+  },
+  {
+    "transactionId": "TXN088",
+    "customerId": "CUST031",
+    "customerName": "Ava Young",
+    "purchaseDate": "2025-03-10",
+    "productPurchased": "Smart Pet Feeder",
+    "price": 129.99
+  },
+  {
+    "transactionId": "TXN089",
+    "customerId": "CUST032",
+    "customerName": "Liam Parker",
+    "purchaseDate": "2025-03-15",
+    "productPurchased": "Electric Standing Desk",
+    "price": 399.0
+  },
+  {
+    "transactionId": "TXN090",
+    "customerId": "CUST033",
+    "customerName": "Olivia Hall",
+    "purchaseDate": "2025-03-20",
+    "productPurchased": "Ergonomic Foot Rest",
+    "price": 45.25
+  },
+  {
+    "transactionId": "TXN091",
+    "customerId": "CUST035",
+    "customerName": "Mason Adams",
+    "purchaseDate": "2025-03-25",
+    "productPurchased": "Noise Cancelling Earbuds",
+    "price": 149.5
+  },
+  {
+    "transactionId": "TXN092",
+    "customerId": "CUST036",
+    "customerName": "Chloe Ramirez",
+    "purchaseDate": "2025-03-29",
+    "productPurchased": "Webcam Light Ring",
+    "price": 29.99
+  },
+  {
+    "transactionId": "TXN093",
+    "customerId": "CUST037",
+    "customerName": "Noah Hernandez",
+    "purchaseDate": "2025-04-04",
+    "productPurchased": "Wireless Presentation Remote",
+    "price": 49.95
+  },
+  {
+    "transactionId": "TXN094",
+    "customerId": "CUST038",
+    "customerName": "Mia Lopez",
+    "purchaseDate": "2025-04-10",
+    "productPurchased": "Keyboard Wrist Rest",
+    "price": 19.99
+  },
+  {
+    "transactionId": "TXN095",
+    "customerId": "CUST039",
+    "customerName": "James Walker",
+    "purchaseDate": "2025-04-14",
+    "productPurchased": "Bluetooth Smart Scale",
+    "price": 69.99
+  },
+  {
+    "transactionId": "TXN096",
+    "customerId": "CUST030",
+    "customerName": "Emily Young",
+    "purchaseDate": "2025-04-18",
+    "productPurchased": "Portable Power Station",
+    "price": 259.99
+  },
+  {
+    "transactionId": "TXN097",
+    "customerId": "CUST029",
+    "customerName": "Isabella Lewis",
+    "purchaseDate": "2025-04-21",
+    "productPurchased": "USB-C Hub",
+    "price": 79.0
+  },
+  {
+    "transactionId": "TXN098",
+    "customerId": "CUST031",
+    "customerName": "Ava Young",
+    "purchaseDate": "2025-04-24",
+    "productPurchased": "Smart Water Bottle",
+    "price": 39.99
+  },
+  {
+    "transactionId": "TXN099",
+    "customerId": "CUST032",
+    "customerName": "Liam Parker",
+    "purchaseDate": "2025-04-27",
+    "productPurchased": "Air Quality Monitor",
+    "price": 109.99
+  },
+  {
+    "transactionId": "TXN100",
+    "customerId": "CUST033",
+    "customerName": "Olivia Hall",
+    "purchaseDate": "2025-04-30",
+    "productPurchased": "Smart Desk Organizer",
+    "price": 89.99
+  },
+  {
+    "transactionId": "TXN101",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2025-05-03",
+    "productPurchased": "Bluetooth Keyboard",
+    "price": 129.99
+  },
+  {
+    "transactionId": "TXN102",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2025-05-07",
+    "productPurchased": "Wireless Charger",
+    "price": 45.50
+  },
+  {
+    "transactionId": "TXN103",
+    "customerId": "CUST003",
+    "customerName": "Mike Wilson",
+    "purchaseDate": "2025-05-12",
+    "productPurchased": "Gaming Chair",
+    "price": 299.99
+  },
+  {
+    "transactionId": "TXN104",
+    "customerId": "CUST004",
+    "customerName": "Emily Davis",
+    "purchaseDate": "2025-05-15",
+    "productPurchased": "Smart Watch",
+    "price": 249.99
+  },
+  {
+    "transactionId": "TXN105",
+    "customerId": "CUST005",
+    "customerName": "David Brown",
+    "purchaseDate": "2025-05-18",
+    "productPurchased": "Portable SSD",
+    "price": 89.99
+  },
+  {
+    "transactionId": "TXN106",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2025-05-22",
+    "productPurchased": "USB-C Hub",
+    "price": 59.99
+  },
+  {
+    "transactionId": "TXN107",
+    "customerId": "CUST006",
+    "customerName": "Lisa Garcia",
+    "purchaseDate": "2025-05-25",
+    "productPurchased": "Fitness Tracker",
+    "price": 149.99
+  },
+  {
+    "transactionId": "TXN108",
+    "customerId": "CUST007",
+    "customerName": "Chris Martinez",
+    "purchaseDate": "2025-05-28",
+    "productPurchased": "Drone",
+    "price": 799.99
+  },
+  {
+    "transactionId": "TXN109",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2025-06-02",
+    "productPurchased": "Smart Home Hub",
+    "price": 199.99
+  },
+  {
+    "transactionId": "TXN110",
+    "customerId": "CUST008",
+    "customerName": "Jessica Taylor",
+    "purchaseDate": "2025-06-05",
+    "productPurchased": "Tablet",
+    "price": 449.99
+  },
+  {
+    "transactionId": "TXN111",
+    "customerId": "CUST003",
+    "customerName": "Mike Wilson",
+    "purchaseDate": "2025-06-08",
+    "productPurchased": "Mechanical Keyboard",
+    "price": 179.99
+  },
+  {
+    "transactionId": "TXN112",
+    "customerId": "CUST009",
+    "customerName": "Kevin Anderson",
+    "purchaseDate": "2025-06-12",
+    "productPurchased": "VR Headset",
+    "price": 599.99
+  },
+  {
+    "transactionId": "TXN113",
+    "customerId": "CUST004",
+    "customerName": "Emily Davis",
+    "purchaseDate": "2025-06-15",
+    "productPurchased": "Smart Speaker",
+    "price": 99.99
+  },
+  {
+    "transactionId": "TXN114",
+    "customerId": "CUST010",
+    "customerName": "Amanda Thomas",
+    "purchaseDate": "2025-06-18",
+    "productPurchased": "Coffee Maker",
+    "price": 129.99
+  },
+  {
+    "transactionId": "TXN115",
+    "customerId": "CUST001",
+    "customerName": "John Smith",
+    "purchaseDate": "2025-06-22",
+    "productPurchased": "External Monitor",
+    "price": 349.99
+  },
+  {
+    "transactionId": "TXN116",
+    "customerId": "CUST011",
+    "customerName": "Ryan Jackson",
+    "purchaseDate": "2025-06-25",
+    "productPurchased": "Power Bank",
+    "price": 79.99
+  },
+  {
+    "transactionId": "TXN117",
+    "customerId": "CUST005",
+    "customerName": "David Brown",
+    "purchaseDate": "2025-06-28",
+    "productPurchased": "Webcam",
+    "price": 89.99
+  },
+  {
+    "transactionId": "TXN118",
+    "customerId": "CUST012",
+    "customerName": "Nicole White",
+    "purchaseDate": "2025-07-01",
+    "productPurchased": "Bluetooth Earbuds",
+    "price": 159.99
+  },
+  {
+    "transactionId": "TXN119",
+    "customerId": "CUST002",
+    "customerName": "Sarah Johnson",
+    "purchaseDate": "2025-07-05",
+    "productPurchased": "Laptop Stand",
+    "price": 49.99
+  },
+  {
+    "transactionId": "TXN120",
+    "customerId": "CUST006",
+    "customerName": "Lisa Garcia",
+    "purchaseDate": "2025-07-08",
+    "productPurchased": "Ring Light",
+    "price": 69.99
+  },
+  {
+    "transactionId": "TXN121",
+    "customerId": "CUST013",
+    "customerName": "Brandon Lee",
+    "purchaseDate": "2025-07-12",
+    "productPurchased": "Gaming Mouse",
+    "price": 89.99
+  },
+  {
+    "transactionId": "TXN122",
+    "customerId": "CUST003",
+    "customerName": "Mike Wilson",
+    "purchaseDate": "2025-07-15",
+    "productPurchased": "Soundbar",
+    "price": 249.99
+  },
+  {
+    "transactionId": "TXN123",
+    "customerId": "CUST007",
+    "customerName": "Chris Martinez",
+    "purchaseDate": "2025-07-18",
+    "productPurchased": "Action Camera",
+    "price": 299.99
+  },
+  {
+    "transactionId": "TXN124",
+    "customerId": "CUST004",
+    "customerName": "Emily Davis",
+    "purchaseDate": "2025-07-22",
+    "productPurchased": "Smart Thermostat",
+    "price": 179.99
+  }
+]
