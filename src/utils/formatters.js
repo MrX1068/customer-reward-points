@@ -13,5 +13,5 @@ export const formatDate = (date) => {
 
 // Format month names consistently
 export const formatMonthName = (month) => {
-  return month ? dayjs().month(month).format("MMMM") : "";
+  return (month !== undefined && month !== null) ? dayjs().month(month).format("MMMM") : "";
 };

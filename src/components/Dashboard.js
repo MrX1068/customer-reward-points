@@ -33,13 +33,17 @@ const Dashboard = () => {
       setIsLoading(true);
       setError(null);
       log.info("Fetching transactions with date filter:", { fromDate, toDate });
-      
+
       // Fetch all transactions from API
       const allData = await fetchTransactions();
-      
+
       // Filter transactions by date range
-      const filteredData = filterTransactionsByDateRange(allData, fromDate, toDate);
-      
+      const filteredData = filterTransactionsByDateRange(
+        allData,
+        fromDate,
+        toDate
+      );
+
       setTransactions(filteredData);
       setHasData(true);
       log.info("Filtered transactions loaded successfully", filteredData);
@@ -70,13 +74,13 @@ const Dashboard = () => {
     () => groupTransactionsByCustomer(transactions),
     [transactions]
   );
-  
+
   // Calculate monthly rewards for all customers
   const monthlyRewards = useMemo(
     () => getAllMonthlyRewards(customerGroups),
     [customerGroups]
   );
-  
+
   // Calculate total rewards for all customers
   const totalRewards = useMemo(
     () => getAllTotalRewards(customerGroups),
@@ -105,33 +109,33 @@ const Dashboard = () => {
     <div className="app">
       <main className="app-main">
         {/* Main App Title */}
-        <Box 
-          sx={{ 
-            textAlign: 'center', 
-            mb: 4, 
+        <Box
+          sx={{
+            textAlign: "center",
+            mb: 4,
             pt: 2,
             pb: 1,
-            borderBottom: '2px solid #e3f2fd'
+            borderBottom: "2px solid #e3f2fd",
           }}
         >
-          <Typography 
-            variant="h4" 
-            component="h1" 
-            sx={{ 
-              fontWeight: 700, 
-              color: '#1976d2',
+          <Typography
+            variant="h4"
+            component="h1"
+            sx={{
+              fontWeight: 700,
+              color: "#1976d2",
               mb: 1,
-              fontSize: { xs: '1.75rem', sm: '2.125rem' }
+              fontSize: { xs: "1.75rem", sm: "2.125rem" },
             }}
           >
             🏆 Customer Rewards Program
           </Typography>
-          <Typography 
-            variant="subtitle1" 
-            sx={{ 
-              color: '#666',
-              fontStyle: 'italic',
-              fontSize: { xs: '0.875rem', sm: '1rem' }
+          <Typography
+            variant="subtitle1"
+            sx={{
+              color: "#666",
+              fontStyle: "italic",
+              fontSize: { xs: "0.875rem", sm: "1rem" },
             }}
           >
             Track transactions and calculate reward points
@@ -155,7 +159,7 @@ const Dashboard = () => {
               />
             </Grid>
           )}
-          
+
           <Grid size={12}>
             <MonthlyRewardsTable
               monthlyRewards={hasData ? monthlyRewards : []}
