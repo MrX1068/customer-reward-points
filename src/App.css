@@ -1,0 +1,105 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f6fa;
+  color: #2c3e50;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+/* App container */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content */
+.app-main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* card conatiner */
+.card-container {
+  background-color: #fffffff2;
+  border: 1px solid #ffffff33;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px #0000001a;
+  backdrop-filter: blur(10px);
+}
+
+/* Table wrapper for scrolling */
+.table-wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 100%;
+  height: 370px;
+}
+
+/* Error styles */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.error-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.error-container h3 {
+  color: #e74c3c;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.error-container p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 400px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .app-main {
+    padding: 1rem;
+  }
+}
+
+/* Multi-line cell styles for Monthly Rewards Table */
+.multi-line-cell {
+  line-height: 1.8;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 4px;
+}
+
+.multi-line-cell-item {
+  margin-bottom: 0;
+}
+
+.multi-line-cell-item:not(:last-child) {
+  margin-bottom: 4px;
+}
